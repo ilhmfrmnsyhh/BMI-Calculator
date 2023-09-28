@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('Background.jpg'); /* Ganti 'background.jpg' dengan path gambar tumbuhan yang sesuai */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    max-width: 400px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #1E7E34; /* Warna hijau yang sesuai dengan tumbuhan */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #1E7E34; /* Warna hijau yang sesuai dengan tumbuhan */
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #1E7E34; /* Warna hijau yang sesuai dengan tumbuhan */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #145826; /* Warna hijau yang sedikit lebih tua */
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #1E7E34; /* Warna hijau yang sesuai dengan tumbuhan */
+}
+
+#bmiResult {
+    font-size: 18px;
+    color: #1E7E34; /* Warna hijau yang sesuai dengan tumbuhan */
+}
